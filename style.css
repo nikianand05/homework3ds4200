@@ -81,3 +81,33 @@ img {
     border: 4px solid #b7e4c7;       /* soft green frame */
 }
 
+
+/* --- minor layout polish --- */
+body { max-width: 1000px; margin: 20px auto; }
+
+/* subtle divider if you ever add <hr> */
+hr {
+    border: 0;
+    height: 1px;
+    background: #cfe8d8;
+    width: 800px;
+    margin: 30px auto;
+}
+
+/* mini gallery for extra cat pics */
+.gallery {
+    width: 800px;
+    margin: 0 auto 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+}
+
+.gallery img {
+    width: 250px;            /* keeps them even */
+    border: 3px solid #b7e4c7;
+    border-radius: 10px;
+    display: block;
+}
+
