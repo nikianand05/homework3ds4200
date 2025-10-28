@@ -1,1 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purrtective Paws — My Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Keep the class-demo feel: inline style on the H1, a simple subtitle, and a navigate button -->
+    <h1 style="color: blue; font-size: 24px;">Welcome to Purrtective Paws</h1>
+    <h3>A simple class website about helping pet guardians</h3>
+
+    <button id="navigateButton">Go to another page</button>
+    <script>
+        const navigateButton = document.getElementById('navigateButton');
+        navigateButton.addEventListener('click', function(){
+            // We will create this page next
+            window.location.href = "resources.html";
+        });
+    </script>
+
+    <!-- At least ~200 words introducing the topic -->
+    <p id="main">
+        Purrtective Paws is a small project focused on clear, plain-language resources that help everyday pet guardians protect their animals.
+        The idea is simple: many people care deeply about their pets but do not know what to do when life gets messy. Breakups, moves, travel,
+        emergencies, or a sudden disagreement with a landlord can leave people scrambling. This website aims to lower the stress by offering
+        friendly explanations, helpful terms, and starter templates that make it easier to have productive conversations and keep pets safe.
+    </p>
+    <p class="A">
+        I am building this as a learning notebook and a practical toolkit. It is not a law firm and it does not give legal advice.
+        Instead, it helps you get organized, gather the right documents, and understand the questions you may need to ask.
+        Examples include a pet co-parenting agreement for separate households, a vet consent form so both guardians can access records,
+        and a short checklist for renters who want to document permissions with a landlord. I also care about accuracy, so I note limits and
+        suggest when to talk to a licensed attorney in your state. Over time, I hope to add a simple state-by-state overview of key pet rules,
+        links to primary sources, and a few short explainers based on common scenarios people face.
+    </p>
+    <p>
+        If you have feedback or examples I should cover, I would love to hear from you. Your ideas can help shape this project and make it more useful for others.
+    </p>
+
+    <!-- Link out to your project and an example university link like the demo -->
+    <a href="https://purrtectivepaws.com" target="_blank" rel="noopener">Visit the full Purrtective Paws site</a>
+
+    <!-- Required image (you can replace this URL with your own later) -->
+    <img
+        src="https://images.unsplash.com/photo-1596854407944-bf87f6fdd49e?q=80&w=1600&auto=format&fit=crop"
+        alt="An orange tabby cat looking curious"
+        width="500">
+</body>
+</html>
 
