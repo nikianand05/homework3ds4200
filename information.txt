@@ -1,6 +1,6 @@
 
 Website:
-file:///C:/Users/NikiA/DS4200JupyterNotebooks/Homework3/ds4200homework3/index.html
+https://github.com/nikianand05/homework3ds4200
 
 Styling and Customizations
 
