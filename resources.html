@@ -3,106 +3,94 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Purrtective Paws — Resources</title>
+  <title>Purrtective Paws — Pet Custody Basics</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- smaller heading than Home (h2 vs h1) -->
-  <h2 style="text-align:center; color:#2d6a4f;">Resources for Pet Custody Basics</h2>
-
-  <!-- simple nav back to home (matches class style) -->
+  <h2 style="text-align:center; color:#2d6a4f;">Pet Custody Basics</h2>
   <button id="backHome">Back to Home</button>
   <script>
-    const backHome = document.getElementById('backHome');
-    backHome.addEventListener('click', function(){
+    document.getElementById('backHome').addEventListener('click', function() {
       window.location.href = "index.html";
     });
   </script>
 
-  <!-- short lede paragraph -->
   <p class="A" style="margin-top:15px;">
-    This page summarizes common situations pet guardians face and shares starter ideas inspired by my larger project,
-    Purrtective Paws. It’s educational and not legal advice. Laws and what counts as “best for the animal” differ by state,
-    and details matter. When in doubt, talk to a licensed attorney in your jurisdiction.
+    This page summarizes how pet custody works when co-guardians, partners, or roommates separate.
+    It’s based on educational resources from my main site,
+    <a href="https://purrtectivepaws.com/pet-custody-basics/" target="_blank" rel="noopener">Purrtective Paws</a>.
+    Each section explains real-world examples and practical takeaways for keeping pets safe and loved.
   </p>
 
-  <!-- three columns with images + bullets -->
   <div class="columns">
+    <!-- Block 1 -->
     <div class="col">
-      <img src="https://images.unsplash.com/photo-1518791841217-8f162f1e1131?q=80&w=1200&auto=format&fit=crop" alt="Green-eyed cat close up">
-      <h3 style="text-align:left; color:#52796f;">Breakups & Co-Parenting</h3>
+      <img src="https://images.unsplash.com/photo-1574158622682-e40e69881006?q=80&w=800&auto=format&fit=crop"
+           alt="Orange cat lounging calmly">
+      <h3>How Pet Custody Works</h3>
+      <p>
+        Pet custody is about who cares for a companion animal when two people—like ex-partners, roommates, or co-guardians—
+        go their separate ways. While most people see pets as family, the law often sees them differently.
+      </p>
       <ul>
-        <li>Agree on daily care, expenses, and decision-making.</li>
-        <li>Create a routine (primary home + visits, or shared time).</li>
-        <li>Document vet access and emergency authorizations.</li>
+        <li>Pets are still legally treated as personal property.</li>
+        <li>Courts focus on ownership, not emotional bonds or caregiving.</li>
+        <li>There’s no formal custody process unless you create one yourself.</li>
       </ul>
+      <p>
+        This means the person who adopted or bought the pet may keep them, even if the other provided most of the daily care.
+      </p>
     </div>
+
+    <!-- Block 2 -->
     <div class="col">
-      <img src="https://images.unsplash.com/photo-1574158622682-e40e69881006?q=80&w=1200&auto=format&fit=crop" alt="Orange cat resting on a bed">
-      <h3 style="text-align:left; color:#52796f;">Housing & Landlords</h3>
+      <img src="https://images.unsplash.com/photo-1518791841217-8f162f1e1131?q=80&w=800&auto=format&fit=crop"
+           alt="Gray cat sitting on a table">
+      <h3>What Courts Consider</h3>
       <ul>
-        <li>Get pet permissions in writing (name, breed, weight).</li>
-        <li>Save emails, addendums, and policy PDFs in one folder.</li>
-        <li>Note deposits/fees and any behavior expectations.</li>
+        <li>Legal ownership (adoption or purchase records)</li>
+        <li>Who provides daily care (feeding, vet visits, etc.)</li>
+        <li>Living situation (stability, pet-friendly housing)</li>
+        <li>Bond with the pet (emotional connection, routine)</li>
+        <li>Written agreements, even informal ones</li>
+        <li>Best interest of the animal, if your state allows</li>
       </ul>
+      <p>
+        The best way to stay out of court is with a clear written agreement.
+        Our <strong>Pet Co-Parenting Agreement</strong> and <strong>Sole Guardian Acknowledgment</strong> templates
+        help outline shared or sole care arrangements after a separation.
+      </p>
     </div>
+
+    <!-- Block 3 -->
     <div class="col">
-      <img src="https://images.unsplash.com/photo-1518020382113-a7e8fc38eac9?q=80&w=1200&auto=format&fit=crop" alt="Gray cat looking sideways">
-      <h3 style="text-align:left; color:#52796f;">Vet Care & Emergencies</h3>
-      <ul>
-        <li>List who can make decisions if one guardian is away.</li>
-        <li>Share records access and microchip info.</li>
-        <li>Keep meds, allergies, and a “go bag” checklist.</li>
-      </ul>
+      <img src="https://images.unsplash.com/photo-1511044568932-338cba0ad803?q=80&w=800&auto=format&fit=crop"
+           alt="Black and white cat with green eyes">
+      <h3>Case Example: Acosta v. Shaw (New York)</h3>
+      <p>
+        This case involved a former couple who disagreed over who should keep their dog after breaking up.
+        Although one person was the legal owner, the court looked at who provided daily care and emotional support.
+        The judge ultimately considered what outcome would be best for the dog overall.
+      </p>
+      <p>
+        <em>Acosta v. Shaw</em> reflects a growing trend in New York where pets aren’t treated as simple property.
+        Under Domestic Relations Law §236B, courts can use the “best for all concerned” standard—looking at routine,
+        care history, and emotional bonds—to decide what arrangement serves the pet’s well-being.
+      </p>
     </div>
   </div>
 
-  <!-- ≥ 200 words descriptive text + another image -->
-  <p>
-    Pet custody can be confusing because animals are treated differently across jurisdictions and the facts of a household
-    really matter. Rather than waiting until there is a conflict, it helps to write down expectations early: who covers routine
-    costs, how visits or exchanges happen, and what to do if schedules change. Clear language reduces stress and creates a paper
-    trail you can refer to later. When guardians separate, it’s helpful to avoid vague phrases like “we will share” and instead
-    specify times, responsibilities, and how to handle holidays or travel. If one person is the primary caretaker, say so plainly
-    and describe how the other will stay involved (updates, vet access, or scheduled time).
-  </p>
-  <p>
-    Documentation is your friend. Keep adoption papers, licenses, microchip details, and key emails together. If you rent, store
-    your pet addendum and any approvals in the same folder. For medical care, note the clinic’s emergency policy—some offices
-    require a consent form if someone other than the listed owner brings the animal in. If a dispute seems likely, or if you are
-    moving across state lines, getting tailored advice is worth it. The goal is simple: keep the focus on care, safety, and continuity
-    for the animal while making responsibilities fair and understandable for the humans involved.
-  </p>
-
-  <img
-    src="https://images.unsplash.com/photo-1511044568932-338cba0ad803?q=80&w=1600&auto=format&fit=crop"
-    alt="Cat with bright green eyes"
-    width="500">
-
-  <!-- A list to satisfy rubric explicitly -->
-  <h3 style="text-align:left; color:#52796f; width:800px; margin: 10px auto;">Quick checklist</h3>
-  <ul class="A" style="width:800px;">
-    <li>Write who feeds, walks, and pays routine expenses.</li>
-    <li>Share vet access and records; list emergency contacts.</li>
-    <li>Create a schedule (primary home + visits or shared time).</li>
-    <li>Store adoption/license/microchip documents together.</li>
-    <li>For renters: keep written permissions and policies.</li>
-  </ul>
-
-  <!-- Contact section (meets the rubric on either page) -->
   <h3 style="text-align:center; color:#52796f;">Contact</h3>
-  <p style="text-align:center; width:auto; background:transparent; border-left:0;">
+  <p style="text-align:center; background:transparent; border:none;">
     Email: <a href="mailto:nikianand1010@gmail.com">nikianand1010@gmail.com</a> |
     LinkedIn: <a href="https://www.linkedin.com/in/nikianand" target="_blank" rel="noopener">linkedin.com/in/nikianand</a> |
     GitHub: <a href="https://github.com/nikianand" target="_blank" rel="noopener">github.com/nikianand</a>
   </p>
 
-  <!-- second nav back just in case -->
-  <p style="text-align:center; background:transparent; border-left:0;">
+  <p style="text-align:center; background:transparent; border:none;">
     <a href="index.html">← Return to Home</a>
   </p>
 
 </body>
 </html>
-

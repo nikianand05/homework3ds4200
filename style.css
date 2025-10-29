@@ -111,3 +111,43 @@ hr {
     display: block;
 }
 
+/* --- three-column layout (balanced for smaller images) --- */
+.columns {
+  width: 900px;
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+}
+
+.col {
+  flex: 1 1 280px;
+  background-color: #f2f8f4;
+  border: 2px solid #b7e4c7;
+  border-radius: 10px;
+  padding: 12px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.col img {
+  width: 100%;
+  max-height: 220px;
+  object-fit: cover;
+  display: block;
+  border-radius: 8px;
+  border: 2px solid #b7e4c7;
+  margin-bottom: 8px;
+}
+
+.col h3 {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  color: #2d6a4f;
+  font-size: 1.1em;
+}
+
+.col p, .col ul {
+  font-size: 0.95em;
+  line-height: 1.5;
+}
