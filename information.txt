@@ -1,1 +1,17 @@
 
+Website:
+file:///C:/Users/NikiA/DS4200JupyterNotebooks/Homework3/ds4200homework3/index.html
+
+Styling and Customizations
+
+For my website, I used a soft green and off-white color palette that matches the theme of my existing website Purrtective Paws. It gives it a calm, natural look. I customized the headings, paragraphs, and buttons using CSS so everything feels consistent and easy to read. I added rounded corners, borders, and light box shadows to give the images and text blocks a clean but friendly layout. The navigation buttons change color when you hover over them, which makes the site feel a little more interactive. On the Resources page, each card has its own background, border, and padding for spacing. Across all pages, I adjusted margins, alignment, and font colors to make the text readable and centered on the page.
+
+Overall, the customizations I used were:
+
+A green and off-white color scheme
+Custom buttons with hover effects
+Rounded corners, borders, and shadows for structure
+A three-column layout using flexbox for organization
+Adjusted spacing and alignment to keep the layout balanced
+A gallery of cat photos in the resources page
+These small changes make the site simple but cohesive, and mantain the green calm color pallette going on.
