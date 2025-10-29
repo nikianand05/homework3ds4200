@@ -151,3 +151,21 @@ hr {
   font-size: 0.95em;
   line-height: 1.5;
 }
+
+/* navigation buttons area */
+button {
+    display: inline-block;
+    margin: 10px;
+    background-color: #95d5b2;
+    border: none;
+    border-radius: 5px;
+    color: #1b4332;
+    font-weight: bold;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: #74c69d;
+}

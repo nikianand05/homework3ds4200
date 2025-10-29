@@ -8,17 +8,25 @@
 </head>
 <body>
 
-    <!-- H1 color changed from blue to black -->
     <h1 style="color: black; font-size: 24px;">Welcome to Purrtective Paws</h1>
     <h3>A simple class website about helping pet guardians</h3>
 
-    <button id="navigateButton">Go to another page</button>
+    <!-- Navigation buttons -->
+    <div style="text-align:center;">
+        <button id="resourcesButton">Resources</button>
+        <button id="aboutButton">About</button>
+    </div>
+
     <script>
-        const navigateButton = document.getElementById('navigateButton');
-        navigateButton.addEventListener('click', function(){
+        // navigation handlers
+        document.getElementById('resourcesButton').addEventListener('click', function() {
             window.location.href = "resources.html";
         });
+        document.getElementById('aboutButton').addEventListener('click', function() {
+            window.location.href = "about.html";
+        });
     </script>
+
 
     <p id="main">
         Before starting this class project, I actually created a full website for Purrtective Paws using WordPress.
