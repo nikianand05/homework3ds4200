@@ -1,6 +1,23 @@
 # ds4200homework3
 creating a website: https://nikianand05.github.io/homework3ds4200/
 
+Submission Information:
+In this Repo:
+--> In Main 
+My wesbite has three pages:
+- index.html
+- resources.html
+- about.html
+- about.txt to read about styling and customisation but you can also read that below
+- and then style.css
+
+FOR PART 2:
+- Homework3 D3 part.html                   (where you can see the graphs) I end up creating this cause I didn't see the templete.html 
+- templete.js
+
+
+
+
 **Styling and Customizations**
 
 For my website, I used a soft green and off-white color palette that matches the theme of my existing website Purrtective Paws. It gives it a calm, natural look. I customized the headings, paragraphs, and buttons using CSS so everything feels consistent and easy to read.
