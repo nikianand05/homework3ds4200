@@ -1,5 +1,5 @@
 # ds4200homework3
-creating a website
+creating a website: https://nikianand05.github.io/homework3ds4200/
 
 **Styling and Customizations**
 
