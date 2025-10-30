@@ -11,7 +11,7 @@ My wesbite has three pages:
 - about.txt to read about styling and customisation but you can also read that below
 - and then style.css
 
-FOR PART 2:
+FOR PART 2: (inside Part2Plots)
 - Homework3 D3 part.html                   (where you can see the graphs) I end up creating this cause I didn't see the templete.html 
 - templete.js
 
