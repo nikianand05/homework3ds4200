@@ -1,6 +1,6 @@
 
 Website:
-https://github.com/nikianand05/homework3ds4200
+https://nikianand05.github.io/homework3ds4200/
 
 Styling and Customizations
 
